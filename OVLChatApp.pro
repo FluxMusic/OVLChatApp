@@ -9,9 +9,9 @@ SOURCES += \
     main.cpp
 
 HEADERS += \
+    chatdelegate.h \
     chatwindow.h \
-    dmitem.h \
-    adminbutton.h
+    dmitem.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
